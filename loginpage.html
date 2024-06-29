@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .aa{
+            padding-right: 175px;
+        }
+        .ab{
+            padding-right: 230px;
+        }
+        header{
+            text-align:center ;
+            background-color: lightblue;
+            margin-left: 550px;
+            margin-right: 550px;
+            border: 2px solid black;
+
+        }
+        .cen{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: wheat;
+            margin-left: 550px;
+            margin-right: 550px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+        <header>
+        <u><b><h1>Registration Form</h1></b></u>
+        </header>
+        <div class="cen">
+        <form method="post">
+            <label for="name">NAME :</label><br>
+            <input type="text" id="name" placeholder="Last Name" required>
+            <input type="text" id="name" placeholder="First Name" required><br>
+            <br>
+            <input type="text" id="name" placeholder="Father Name" required>
+            <input type="text" id="name" placeholder="Mother Name" required>
+            <br>
+            <br>
+
+            <label for="email">EMAIL :</label><br>
+                <input class="aa" type="email" placeholder="Email" id="email" name="email" required>
+                <br>
+                <br>
+
+            <label for="number">MOBILE NUMBER :</label><br>
+               <input class="aa" type="number" id="number" name="number" placeholder="Mobile No" pattern="[0-9]{4,9}" required>
+               <br>
+               <br>
+
+                <label for="password">Create a Password :</label><br>
+                    <input class="aa" type="password" placeholder="Password" id="password" name="password" required>
+                    <br>
+                    <br>
+
+                    <label for="password1">Confirm your Password :</label><br>
+                    <input class="aa" type="password" placeholder="Password" id="password1" name="password" required>
+                    <br>
+                    <br>
+
+                    <label for="date">DATE OF BIRTH :</label><br>
+                    <input class="ab" type="date" id="date" name="date" required>
+                    <br>
+                    <br>
+
+                    <label for="gender">GENDER :</label><br>
+                    <input type="radio" name="gender" value="male" id="gender">MALE
+                    <input type="radio" name="gender" value="female" id="gender">FEMALE
+                    <input type="radio" name="gender" value="others" id="gender">OTHERS
+                    <br>
+                    <br>
+
+                    <label for="address">ADDRESS :</label><br>
+                    <input class="aa" type="text" id="address" placeholder="Street name"> <br>
+                    <br>
+                    <input type="text" id="address" placeholder="City">
+                    <input type="text" id="address" placeholder="State"> <br>
+                    <br>
+                    <input type="text" id="address" placeholder="Country">
+                    <input type="text" id="address" placeholder="Pin code"> 
+                    <br>
+                    <br> 
+
+                    <input type="submit" value="REGISTER">
+                    <input type="reset" value="RESET"><br/>
+                    <br>
+        </form>
+
+
+    </div>
+</body>
+</html>
