@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+         body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: lightblue;
+        }
+        .aa{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+ 
+        }
+        form{
+            background-color: wheat;
+            border-radius: 10px; 
+            padding: 50px;
+            box-shadow: 0 0 10px lightgreen;
+        }
+        h1, h3{
+            text-align: center;
+        }
+        a{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1><b> RESET PASSWORD </b></h1>
+        </header>
+        <div class="aa">
+        <form method="post" action="./day8task.html">
+             <h2><b> RESET <ion-icon name="refresh-outline"></ion-icon></b></h2>
+             <br>
+             <label for="email"><ion-icon name="mail-outline"></ion-icon> Email</label><br>
+             <input type="email" id="email" name="email" >
+             <h3>Or</h3>
+             <a href="https://wa.me/8179658489/?text=OTP for Reseting Password"><ion-icon name="logo-whatsapp"></ion-icon> WhatsApp</a>
+             <br>
+             <br>
+             <label for="otp">Enter the OTP</label><br>
+             <input type="number" id="otp" name="otp" pattern="[0-9]{4,6}" required>
+             <br>
+             <br>
+             <label for="passwaord"><ion-icon name="lock-closed-outline"></ion-icon>New Password</label><br>
+             <input type="password" id="passwaord" name="passwaord" required >
+             <br>
+             <br>
+             <label for="passwaord"><ion-icon name="lock-closed-outline"></ion-icon>Re-Enter Password</label><br>
+             <input type="password" id="passwaord" name="passwaord" required>
+             <br>
+             <br>
+
+             <input type="submit" value="Save">
+             <input type="reset">
+             <br><br>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
