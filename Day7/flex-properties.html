@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            row-gap: 20px;
+            column-gap: 20px; 
+            margin-top: 100px;
+            margin-bottom: 100px;  
+        }
+        body{
+            background-color: lightgrey;
+            
+        }
+        .one{
+            background-color: white;
+            height: 140px;
+            width: 288px;
+            padding: 10px;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 0 0 10px black;
+        }
+        .img1{
+            position: relative;
+            top: 2px;
+        }
+        .h1{
+            position: relative;
+            left: 60px;
+            top: -50px;
+        }
+        .p1{
+            position: relative;
+            left: 60px;
+            top: -53px;
+            opacity: 0.7;
+        }
+         .icon1{
+            position: relative;
+            left: 60px;
+            top: -53px;
+         }
+         .p-one{
+           position: relative;
+           top: -53px;
+         }
+         .p-one1{
+            position: relative;
+            top: -30px;
+            font-size: 12px;
+            opacity: 0.7;
+         }
+         .a1{
+            position: relative;
+            top: -45px;
+            color: rgb(8, 144, 255);
+            text-decoration: none;
+            font-size: 14px;
+            left: 240px;
+         }
+         
+         .two{
+            background-color: white;
+            height: 140px;
+            width: 288px;
+            padding: 10px;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 0 0 10px black;
+        }
+        .img2{
+            position: relative;
+            top: 2px;
+        }
+        .h2{
+            position: relative;
+            left: 60px;
+            top: -50px;
+        }
+        .p2{
+            position: relative;
+            left: 60px;
+            top: -53px;
+            opacity: 0.7;
+        }
+         .icon2{
+            position: relative;
+            left: 60px;
+            top: -53px;
+         }
+         .p-two{
+           position: relative;
+           top: -53px;
+         }
+         .p-two2{
+            position: relative;
+            top: -30px;
+            font-size: 12px;
+            opacity: 0.7;
+         }
+         .a2{
+            position: relative;
+            top: -45px;
+            color: rgb(8, 144, 255);
+            text-decoration: none;
+            font-size: 14px;
+            left: 240px;
+         }
+         .three{
+            background-color: white;
+            height: 140px;
+            width: 288px;
+            padding: 10px;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 0 0 10px black;
+        }
+        .img3{
+            position: relative;
+            top: 2px;
+        }
+        .h3{
+            position: relative;
+            left: 60px;
+            top: -50px;
+        }
+        .p3{
+            position: relative;
+            left: 60px;
+            top: -53px;
+            opacity: 0.7;
+        }
+         .icon3{
+            position: relative;
+            left: 60px;
+            top: -53px;
+         }
+         .p-three{
+           position: relative;
+           top: -53px;
+         }
+         .p-three3{
+            position: relative;
+            top: -30px;
+            font-size: 12px;
+            opacity: 0.7;
+         }
+         .a3{
+            position: relative;
+            top: -45px;
+            color: rgb(8, 144, 255);
+            text-decoration: none;
+            font-size: 14px;
+            left: 240px;
+         }
+         .four{
+            background-color: white;
+            height: 140px;
+            width: 288px;
+            padding: 10px;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 0 0 10px black;
+        }
+        .img4{
+            position: relative;
+            top: 2px;
+        }
+        .h4{
+            position: relative;
+            left: 60px;
+            top: -50px;
+        }
+        .p4{
+            position: relative;
+            left: 60px;
+            top: -53px;
+            opacity: 0.7;
+        }
+         .icon4{
+            position: relative;
+            left: 60px;
+            top: -53px;
+         }
+         .p-four{
+           position: relative;
+           top: -53px;
+         }
+         .p-four4{
+            position: relative;
+            top: -30px;
+            font-size: 12px;
+            opacity: 0.7;
+         }
+         .a4{
+            position: relative;
+            top: -45px;
+            color: rgb(8, 144, 255);
+            text-decoration: none;
+            font-size: 14px;
+            left: 240px;
+         }
+
+         .five{
+            background-color: white;
+            height: 140px;
+            width: 288px;
+            padding: 10px;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 0 0 10px black;
+        }
+        .img5{
+            position: relative;
+            top: 2px;
+        }
+        .h5{
+            position: relative;
+            left: 60px;
+            top: -50px;
+        }
+        .p5{
+            position: relative;
+            left: 60px;
+            top: -53px;
+            opacity: 0.7;
+        }
+         .icon5{
+            position: relative;
+            left: 60px;
+            top: -53px;
+         }
+         .p-five{
+           position: relative;
+           top: -53px;
+         }
+         .p-five5{
+            position: relative;
+            top: -30px;
+            font-size: 12px;
+            opacity: 0.7;
+         }
+         .a5{
+            position: relative;
+            top: -45px;
+            color: rgb(8, 144, 255);
+            text-decoration: none;
+            font-size: 14px;
+            left: 240px;
+         }
+         .six{
+            background-color: white;
+            height: 140px;
+            width: 288px;
+            padding: 10px;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 0 0 10px black;
+        }
+        .img6{
+            position: relative;
+            top: 2px;
+        }
+        .h6{
+            position: relative;
+            left: 60px;
+            top: -50px;
+        }
+        .p6{
+            position: relative;
+            left: 60px;
+            top: -53px;
+            opacity: 0.7;
+        }
+         .icon6{
+            position: relative;
+            left: 60px;
+            top: -53px;
+         }
+         .p-six{
+           position: relative;
+           top: -53px;
+         }
+         .p-six6{
+            position: relative;
+            top: -30px;
+            font-size: 12px;
+            opacity: 0.7;
+         }
+         .a6{
+            position: relative;
+            top: -45px;
+            color: rgb(8, 144, 255);
+            text-decoration: none;
+            font-size: 14px;
+            left: 240px;
+         }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="one">
+            <img class="img1" src="./img/stripe.jpg" height="50px" width="50px">
+            <h4 class="h1">Stripe</h4>
+            <p class="p1">payment services</p>
+            <div class="icon1">
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-half-outline"></ion-icon>
+            </div>
+            <p class="p-one">Get more context on your users with stripe data inside our platform .</p>
+            <p class="p-one1">Installed 172 times</p>
+            <a href="#" class="a1">view ></a>
+        </div>
+        <div class="two">
+                <img class="img2" src="./img/milchimp.png" height="50px" width="50px">
+                <h4 class="h2">Mailchimp</h4>
+                <p class="p2">project management</p>
+                <div class="icon2">
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-half-outline"></ion-icon>
+                </div>
+                <p class="p-two">Capture and sync subscribers from your mailchimp platform to ours with ease.</p>
+                <p class="p-two2">Installed 1234 times</p>
+                <a href="#" class="a2">view ></a>
+        </div>
+       
+        <div class="three">
+            <img class="img3" src="./img/dropbox.png" height="50px" width="50px">
+            <h4 class="h3">Dropbox</h4>
+            <p class="p3">file management</p>
+            <div class="icon3">
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-half-outline"></ion-icon>
+            </div>
+            <p class="p-three">Use dropbox to sync your photos to our platfoem and share it with others.</p>
+            <p class="p-three3">Installed 1234 times</p>
+            <a href="#" class="a3">view ></a>
+        </div>
+            <div class="four">
+                <img class="img4" src="./img/shopify.png" height="50px" width="50px">
+                <h4 class="h4">Shopify</h4>
+                <p class="p4">ecommerce</p>
+                <div class="icon4">
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-half-outline"></ion-icon>
+                </div>
+                <p class="p-four">Sell you items with ease with having any website with our free platform.</p>
+                <p class="p-four4">Installed 1234 times</p>
+                <a href="#" class="a4">view ></a>
+            </div>
+            <div class="five">
+                <img class="img5" src="./img/atlassian.png" height="50px" width="50px">
+                <h4 class="h5">Atlassian</h4>
+                <p class="p5">project management</p>
+                <div class="icon5">
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-half-outline"></ion-icon>
+                </div>
+                <p class="p-five">Developing products for developers,project managers and architects.</p>
+                <p class="p-five5">Installed 354 times</p>
+                <a href="#" class="a5">view ></a>
+            </div>
+            <div class="six">
+                <img class="img6" src="./img/salesforce.jpeg" height="50px" width="50px">
+                <h4 class="h6">Salesforce</h4>
+                <p class="p6">project management</p>
+                <div class="icon6">
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-half-outline"></ion-icon>
+                </div>
+                <p class="p-six">Developing products for developers,project managers and architects.</p>
+                <p class="p-six6">Installed 345 times</p>
+                <a href="#" class="a6">view ></a>
+            </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
