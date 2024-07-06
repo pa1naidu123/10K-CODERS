@@ -3,7 +3,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media screen and (min-width:1024px) and (max-width:2000px) {
+@media screen and (min-width:1400px) and (max-width:2000px) {
 
 
     .profile {
@@ -16,7 +16,7 @@
     aside {
         border: 2px solid grey;
         width: 350px;
-        height: 657px;
+        height: 100vh;
     }
 
     .snaplogo {
@@ -62,7 +62,7 @@
     }
     .scroll{
         margin-top: 7px;
-        height: 650px;
+        height: 99.5vh;
         width: 351px;
         overflow-y: scroll;
     }
@@ -383,7 +383,7 @@
         color: red;
     }
     .call{
-        margin-left: 750px;
+        margin-left: 60vw;
         margin-top: -40px;
         width: 130px;
         height: 40px;
@@ -397,7 +397,7 @@
     }
     .chat{
         width: 74.5vw;
-        height: 500px;
+        height: 76vh;
         border: 2px solid gray;
         margin-top: 20px;
         margin-left: 20px;
@@ -414,7 +414,466 @@
         border: 2px solid black;
     }
     #typing{
-        width: 1000px;
+        width: 60vw;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+    .add{
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black;
+
+    }
+    .keyb{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        background-color: lightgray;
+        height: 80px;
+        width: 74.5vw;
+        margin-left: 20px;
+        border-radius: 0px 0px 10px 10px;
+        border: 2px solid black;
+    }
+    .convo{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .msgs{
+        margin-bottom: 20px;
+    }
+    .me1{
+        color: red;
+    }
+    .span1{
+        color: red;
+    }
+    .me2{
+        color: rgb(0, 140, 215 );
+    }
+    .span2{
+        color:rgb(0, 140, 215 ) ;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1400px) {
+
+
+    .profile {
+        border-radius: 50px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    aside {
+        border: 2px solid grey;
+        width: 350px;
+        height: 104vh;
+    }
+
+    .snaplogo {
+        position: absolute;
+        left: 150px;
+        top: 15px;
+    }
+
+    .chaticon {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        left: 300px;
+        top: 14px;
+    }
+
+    hr {
+        position: absolute;
+        top: 70px;
+        width: 350px;
+    }
+    .hr1{
+        position: absolute;
+        top: 140px;
+        width: 350px;
+    }
+    .color{
+        background-color: white;
+        position: absolute;
+        height: 140px;
+        width: 350px;
+        z-index: 2;
+    }
+
+    #search {
+        position: absolute;
+        width: 290px;
+        height: 30px;
+        top: 90px;
+        left: 25px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+    .scroll{
+        margin-top: 7px;
+        height: 103.5vh;
+        width: 351px;
+        overflow-y: scroll;
+    }
+
+    .bitmoji1 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+    .love1{
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit1 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+        margin-top: 130px;
+
+    }
+
+    .h4-1 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+    .p1{
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .square1{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+    .bitmoji2 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit2 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+       
+
+    }
+
+    .h4-2 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+    .p2{
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .square2{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+    .bitmoji3 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit3 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+       
+
+    }
+
+    .h4-3 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+    .p3{
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .square3{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+    .bitmoji4 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+    .love4{
+            color: rgb(255, 0, 200);
+            margin-left: -20px;
+    }
+    
+
+    .bit4 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+       
+
+    }
+
+    .h4-4 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+    .p4{
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .square4{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+    .bitmoji5 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit5 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+       
+
+    }
+
+    .h4-5 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+    .p5{
+        color: red;
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+    .bitmoji6 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit6 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+       
+
+    }
+
+    .h4-6 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+    .p6{
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+    .bitmoji7 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit7 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+        background-color: rgb(228, 227, 227);
+    }
+
+    .h4-7 {
+        margin-top: -50px;
+        margin-left: 80px;
+        visibility: visible;
+    }
+    .p7{
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+    .bitmoji8 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+    .love8{
+        color: rgb(255, 0, 0);
+    }
+
+    .bit8 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+       
+
+    }
+
+    .h4-8 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+    .p8{
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        margin-top: 7px;
+        font-size: 13px;
+        opacity: 0.9;
+    }
+    .bitmoji9 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+    .love9{
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit9 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .h4-9 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+    .p9{
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .square9{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+    .bit1:hover, .bit2:hover, .bit3:hover, .bit4:hover, .bit5:hover, .bit6:hover, .bit7:hover, .bit8:hover{
+        background-color: rgb(228, 227, 227);
+    }
+
+    .main{
+        display: flex;
+        flex-direction: row;
+    }
+    .icon1{
+      height: 6vh;
+      width: 6vw;
+      margin-top: 20px;
+      color: gray;
+    }
+    .bitmoji-elena{
+        border-radius: 50px;
+        margin-left: 10px;
+    }
+    .h3{
+        margin-left: 160px;
+        margin-top: -40px;
+    }
+    .love-ca{
+        color: red;
+    }
+    .call{
+        margin-left: 60vw;
+        margin-top: -40px;
+        width: 130px;
+        height: 40px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px ;
+    }
+    .chat{
+        width: 74.5vw;
+        height: 80vh;
+        border: 2px solid gray;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 10px 10px 0px 0px;
+        overflow-y: scroll;
+    }
+    .cam{
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        /* position: relative; */
+        /* top: 15px; */
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+    #typing{
+        width: 60vw;
         height: 30px;
         border: 2px solid black;
         border-radius: 15px 15px 15px 15px;
@@ -475,7 +934,7 @@
     aside {
         border: 2px solid grey;
         width: 350px;
-        height: 683px;
+        height: 110vh;
     }
 
     .snaplogo {
@@ -521,7 +980,7 @@
     }
     .scroll{
         margin-top: 7px;
-        height: 695px;
+        height: 109.5vh;
         width: 351px;
         overflow-y: scroll;
     }
@@ -842,7 +1301,7 @@
         color: red;
     }
     .call{
-        margin-left: 400px;
+        margin-left: 60vw;
         margin-top: -40px;
         width: 130px;
         height: 40px;
@@ -856,7 +1315,7 @@
     }
     .chat{
         width: 74.5vw;
-        height: 527px;
+        height: 86vh;
         border: 2px solid gray;
         margin-top: 20px;
         margin-left: 20px;
@@ -871,7 +1330,7 @@
         border: 2px solid black;
     }
     #typing{
-        width: 350px;
+        width: 60vw;
         height: 30px;
         border: 2px solid black;
         border-radius: 15px 15px 15px 15px;
@@ -892,7 +1351,7 @@
         column-gap: 10px;
         background-color: lightgray;
         height: 80px;
-        width: 650px;
+        width: 74.5vw;
         margin-left: 20px;
         border-radius: 0px 0px 10px 10px;
         border: 2px solid black;
@@ -932,7 +1391,7 @@
     aside {
         border: 2px solid grey;
         width: 350px;
-        height: 683px;
+        height: 114vh;
     }
 
     .snaplogo {
@@ -978,7 +1437,7 @@
     }
     .scroll{
         margin-top: 7px;
-        height: 675px;
+        height: 113.5vh;
         width: 351px;
         overflow-y: scroll;
     }
@@ -1299,7 +1758,7 @@
         color: red;
     }
     .call{
-        margin-left: 400px;
+        margin-left: 60vw;
         margin-top: -40px;
         width: 130px;
         height: 40px;
@@ -1313,7 +1772,8 @@
     }
     .chat{
         width: 74.5vw;
-        height: 527px;
+        height: 90vh
+        ;
         border: 2px solid gray;
         margin-top: 20px;
         margin-left: 20px;
@@ -1328,7 +1788,7 @@
         border: 2px solid black;
     }
     #typing{
-        width: 350px;
+        width: 50vw;
         height: 30px;
         border: 2px solid black;
         border-radius: 15px 15px 15px 15px;
@@ -1349,7 +1809,7 @@
         column-gap: 10px;
         background-color: lightgray;
         height: 80px;
-        width: 650px;
+        width: 74.5vw;
         margin-left: 20px;
         border-radius: 0px 0px 10px 10px;
         border: 2px solid black;
@@ -1388,7 +1848,7 @@
     aside {
         border: 2px solid grey;
         width: 150px;
-        height: 587px;
+        height: 100vh;
     }
 
     .snaplogo {
@@ -1432,7 +1892,7 @@
     }
     .scroll{
         margin-top: 7px;
-        height: 580px;
+        height: 99.5vh;
         width: 150px;
         overflow-y: scroll;
     }
@@ -1701,7 +2161,7 @@
           color: red;
       }
       .call{
-          margin-left: 300px;
+          margin-left: 60vw;
           margin-top: -40px;
           width: 130px;
           height: 40px;
@@ -1715,7 +2175,7 @@
       }
       .chat{
           width: 74.5vw;
-          height: 430px;
+          height: 76vh;
           border: 2px solid gray;
           margin-top: 20px;
           margin-left: 20px;
@@ -1732,7 +2192,7 @@
           border: 2px solid black;
       }
       #typing{
-          width: 350px;
+          width: 50vw;
           height: 30px;
           border: 2px solid black;
           border-radius: 15px 15px 15px 15px;
@@ -1792,7 +2252,7 @@
     aside {
         border: 2px solid grey;
         width: 150px;
-        height: 597px;
+        height: 104vh;
     }
 
     .snaplogo {
@@ -1836,7 +2296,7 @@
     }
     .scroll{
         margin-top: 7px;
-        height: 593px;
+        height: 103.5vh;
         width: 150px;
         overflow-y: scroll;
     }
@@ -2105,7 +2565,7 @@
           color: red;
       }
       .call{
-          margin-left: 300px;
+          margin-left: 50vw;
           margin-top: -40px;
           width: 130px;
           height: 40px;
@@ -2119,7 +2579,7 @@
       }
       .chat{
           width: 74.5vw;
-          height: 440px;
+          height: 80vh;
           border: 2px solid gray;
           margin-top: 20px;
           margin-left: 20px;
@@ -2136,7 +2596,7 @@
           border: 2px solid black;
       }
       #typing{
-          width: 350px;
+          width: 40vw;
           height: 30px;
           border: 2px solid black;
           border-radius: 15px 15px 15px 15px;
@@ -2195,7 +2655,7 @@
     aside {
         border: 2px solid grey;
         width: 350px;
-        height: 650px;
+        height: 104vh;
     }
 
     .snaplogo {
@@ -2241,7 +2701,7 @@
     }
     .scroll{
         margin-top: 7px;
-        height: 623px;
+        height: 103.5vh;
         width: 350px;
         overflow-y: scroll;
     }
