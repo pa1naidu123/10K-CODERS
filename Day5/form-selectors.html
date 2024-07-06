@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        [class="main"]{
+             display: flex;
+             justify-content: center;
+             margin-left: 550px;
+             margin-right: 550px;
+             border: 2px solid black;
+             padding-top: 50px;
+             padding-bottom: 50px;
+             margin-bottom: 50px;
+            background-color: lightskyblue;
+        }
+        [class="header"]{
+            text-align: center;
+            border: 2px solid black;
+            margin-left: 550px;
+            margin-right: 550px;
+            margin-top: 30px;
+            background-color: lemonchiffon;
+        }
+        [id="name"]{
+            border: 3px solid red;
+            color: green;
+            background-color: lemonchiffon;
+
+        }
+        [for="name"]{
+            color: green;
+        }
+        [id="email"]{
+            border: 3px solid red;
+            color: green;
+            background-color: lemonchiffon;
+        }
+        [for="email"]{
+            color: green;
+        }
+        [id~="word"]{
+            border: 3px solid red;
+            color: green;
+            background-color: lemonchiffon;
+        }
+        [id|="pass"]{
+            border: 3px solid red;
+            color: green;
+            background-color: lemonchiffon;
+        }
+        [for="password"]{
+            color: green;
+        }
+        [for~="word1"]{
+            color: green;
+        }
+        [for|="Pas"]{
+            color: green;
+        }
+        [for^="D"]{
+            color: seagreen;
+        }
+        [for*="de"]{
+            color: seagreen;
+        }
+        [id*="O"]{
+            border: 3px solid red;
+            color: seagreen;
+            background-color: lemonchiffon;
+        }
+        [id^="ma"]{
+            color: red;
+        }
+        [id*="em"]{
+            color: red;
+        }
+        [for$="ress"]{
+            color: seagreen;
+        }
+        [placeholder*="Street"]{
+            border: 3px solid red;
+            background-color: lemonchiffon;
+        }
+        [placeholder^="Ci"]{
+            border: 3px solid red;
+            background-color: lemonchiffon; 
+        }
+        [name~="te"]{
+            border: 3px solid red;
+            background-color: lemonchiffon;
+        }
+        [name|="Coun"]{
+            border: 3px solid red;
+            background-color: lemonchiffon;
+        }
+        [placeholder$="code"]{
+            border: 3px solid red;
+            background-color: lemonchiffon;
+        }
+        [type="submit"]{
+            color: blue;
+            background-color: aqua;
+        }
+        [type="reset"]{
+            color: blue;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+    <header>
+        <h1><b>Registration Form</b></h1>
+    </header>
+</div>
+    <div class="main">
+    <form target="_blank">
+        <label for="name">ENTER YOUR NAME : </label><br>
+       <input type="text" id="name" placeholder="First & Second Name" required>
+       <input type="text" id="name" placeholder="Last Name" required><br>
+       <br>
+        <label for="email">Enter Your Email : </label><br>
+        <input type="email" id="email" placeholder="ex : user@123gmail.com" required><br>
+        <br>
+       <label for="Pas-sword">Create Password : </label><br>
+       <input type="password" id="pass word" placeholder="password" pattern="[0-9]{5,9}"><br>
+       <br>
+       <label for="pass word1">Confirm Your Password : </label><br>
+       <input type="password" id="pass-word-1" placeholder="password" required><br>
+       <br>
+       <label for="DOB">Date Of Birth : </label><br>
+       <input type="date" id="DOB" required><br>
+       <br>
+       <label for="Gender">Gender : </label>
+       <input type="radio" id="Gender" name="Gender" value="male"> <label id="male">Male </label> 
+       <input type="radio" id="Gender" name="Gender" value="female"> <label id="female">Female</label> <br>
+       <br>
+       <label for="address">ADDRESS :</label><br>
+       <input type="text" id="address" placeholder="Street name"> <br>
+       <br>
+       <input type="text" id="address1" placeholder="City">
+       <input type="text" id="address2" name="Sta te" placeholder="State"> <br>
+       <br>
+       <input type="text" id="address3" name="Coun-try" placeholder="Country">
+       <input type="text" id="address4" placeholder="Pin code"> 
+       <br>
+       <br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</div>
+</body>
+</html>
