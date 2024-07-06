@@ -9,6 +9,13 @@
            margin: 0;
            padding: 0;
         }
+        .entire{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
         .main{
             display: flex;
             flex-direction: row;
@@ -16,8 +23,8 @@
             justify-content: center;
             row-gap: 20px;
             column-gap: 20px; 
-            margin-top: 100px;
-            margin-bottom: 100px;  
+            /* margin-top: 100px;
+            margin-bottom: 100px;   */
         }
         body{
             background-color: lightgrey;
@@ -304,6 +311,7 @@
     </style>
 </head>
 <body>
+    <div class="entire">
     <div class="main">
         <div class="one">
             <img class="img1" src="./img/stripe.jpg" height="50px" width="50px">
@@ -396,6 +404,7 @@
                 <p class="p-six6">Installed 345 times</p>
                 <a href="#" class="a6">view ></a>
             </div>
+    </div>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
