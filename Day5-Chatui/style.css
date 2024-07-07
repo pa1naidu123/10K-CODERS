@@ -3120,7 +3120,7 @@
 
     aside {
         border: 2px solid grey;
-        width: 340px;
+        width: 350px;
         height: 650px;
     }
 
@@ -3168,7 +3168,7 @@
     .scroll{
         margin-top: 7px;
         height: 645px;
-        width: 340px;
+        width: 350px;
         overflow-y: scroll;
     }
 
