@@ -2290,7 +2290,7 @@
     aside {
         border: 2px solid grey;
         width: 150px;
-        height: 99.5vh;
+        height: 650px;
     }
 
     .snaplogo {
@@ -2334,7 +2334,7 @@
     }
     .scroll{
         margin-top: 7px;
-        height: 99.5vh;
+        height: 648px;
         width: 150px;
         overflow-y: scroll;
     }
@@ -2624,7 +2624,7 @@
       }
       .chat{
           width: 74.5vw;
-          height: 79vh;
+          height: 495px;
           border: 2px solid gray;
           margin-top: 20px;
           margin-left: 20px;
