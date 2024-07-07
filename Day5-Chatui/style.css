@@ -933,7 +933,7 @@
 
     aside {
         border: 2px solid grey;
-        width: 350px;
+        width: 38vw;
         height: 98vh;
     }
 
@@ -954,24 +954,24 @@
     hr {
         position: absolute;
         top: 70px;
-        width: 350px;
+        width: 38vw;
     }
     .hr1{
         position: absolute;
         top: 140px;
-        width: 350px;
+        width: 38vw;
     }
     .color{
         background-color: white;
         position: absolute;
         height: 140px;
-        width: 350px;
+        width: 38vw;
         z-index: 2;
     }
 
     #search {
         position: absolute;
-        width: 290px;
+        width:31vw;
         height: 30px;
         top: 90px;
         left: 25px;
@@ -981,7 +981,7 @@
     .scroll{
         margin-top: 7px;
         height: 97.5vh;
-        width: 351px;
+        width: 38vw;
         overflow-y: scroll;
     }
 
@@ -2643,7 +2643,7 @@
     
 }
 
-@media screen and (min-width:350px) and (max-width:425px) {
+@media screen and (min-width:360px) and (max-width:425px) {
     .profile {
         border-radius: 50px;
         position: absolute;
@@ -2653,13 +2653,13 @@
 
     aside {
         border: 2px solid grey;
-        width: 350px;
+        width: 100vw;
         height: 98vh;
     }
 
     .snaplogo {
         position: absolute;
-        left: 160px;
+        left: 44vw;
         top: 15px;
     }
 
@@ -2667,31 +2667,31 @@
         position: absolute;
         height: 40px;
         width: 40px;
-        left: 300px;
+        left: 80vw;
         top: 14px;
     }
 
     hr {
         position: absolute;
         top: 70px;
-        width: 350px;
+        width: 100vw;
     }
     .hr1{
         position: absolute;
         top: 140px;
-        width: 350px;
+        width: 100vw;
     }
     .color{
         background-color: white;
         position: absolute;
         height: 140px;
-        width: 350px;
+        width: 100vw;
         z-index: 2;
     }
 
     #search {
         position: absolute;
-        width: 290px;
+        width: 84vw;
         height: 30px;
         top: 90px;
         left: 25px;
@@ -2700,8 +2700,8 @@
     }
     .scroll{
         margin-top: 7px;
-        height: 97.5vh;
-        width: 350px;
+        height: 100vh;
+        width: 99vw;
         overflow-y: scroll;
     }
 
@@ -2740,7 +2740,7 @@
         width: 10px;
         background-color: rgb(0, 140, 215);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 80vw;
         margin-top: -23px;
     }
     .bitmoji2 {
@@ -2774,7 +2774,7 @@
         width: 10px;
         background-color: rgb(162, 0, 227);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 80vw;
         margin-top: -23px;
     }
     .bitmoji3 {
@@ -2808,7 +2808,7 @@
         width: 10px;
         background-color: rgb(162, 0, 227);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 80vw;
         margin-top: -23px;
     }
     .bitmoji4 {
@@ -2846,7 +2846,7 @@
         width: 10px;
         background-color: rgb(0, 140, 215);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 80vw;
         margin-top: -23px;
     }
     .bitmoji5 {
@@ -2989,7 +2989,7 @@
         width: 10px;
         background-color: rgb(0, 140, 215);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 80vw;
         margin-top: -23px;
     }
     .bit1:hover, .bit2:hover, .bit3:hover, .bit4:hover, .bit5:hover, .bit6:hover, .bit7:hover, .bit8:hover, .bit9:hover{
@@ -3110,7 +3110,7 @@
     }
 }
 
-@media screen and (min-width:300px) and (max-width:350px) {
+@media screen and (min-width:300px) and (max-width:360px) {
     .profile {
         border-radius: 50px;
         position: absolute;
@@ -3120,13 +3120,13 @@
 
     aside {
         border: 2px solid grey;
-        width: 350px;
+        width: 100vw;
         height: 650px;
     }
 
     .snaplogo {
         position: absolute;
-        left: 160px;
+        left: 41vw;
         top: 15px;
     }
 
@@ -3134,31 +3134,31 @@
         position: absolute;
         height: 40px;
         width: 40px;
-        left: 300px;
+        left: 78vw;
         top: 14px;
     }
 
     hr {
         position: absolute;
         top: 70px;
-        width: 350px;
+        width: 100vw;
     }
     .hr1{
         position: absolute;
         top: 140px;
-        width: 350px;
+        width: 100vw;
     }
     .color{
         background-color: white;
         position: absolute;
         height: 140px;
-        width: 350px;
+        width: 100vw;
         z-index: 2;
     }
 
     #search {
         position: absolute;
-        width: 290px;
+        width: 80vw;
         height: 30px;
         top: 90px;
         left: 25px;
@@ -3168,7 +3168,7 @@
     .scroll{
         margin-top: 7px;
         height: 645px;
-        width: 350px;
+        width: 100vw;
         overflow-y: scroll;
     }
 
@@ -3207,7 +3207,7 @@
         width: 10px;
         background-color: rgb(0, 140, 215);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 290px;
         margin-top: -23px;
     }
     .bitmoji2 {
@@ -3241,7 +3241,7 @@
         width: 10px;
         background-color: rgb(162, 0, 227);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 290px;
         margin-top: -23px;
     }
     .bitmoji3 {
@@ -3275,7 +3275,7 @@
         width: 10px;
         background-color: rgb(162, 0, 227);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 290px;
         margin-top: -23px;
     }
     .bitmoji4 {
@@ -3313,7 +3313,7 @@
         width: 10px;
         background-color: rgb(0, 140, 215);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 290px;
         margin-top: -23px;
     }
     .bitmoji5 {
@@ -3456,7 +3456,7 @@
         width: 10px;
         background-color: rgb(0, 140, 215);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 290px;
         margin-top: -23px;
     }
     .bit1:hover, .bit2:hover, .bit3:hover, .bit4:hover, .bit5:hover, .bit6:hover, .bit7:hover, .bit8:hover, .bit9:hover{
@@ -3577,7 +3577,7 @@
     }
 }
 
-@media screen and (min-width:250px) and (max-width:350px) {
+@media screen and (min-width:250px) and (max-width:300px) {
     .profile {
         border-radius: 50px;
         position: absolute;
@@ -3587,13 +3587,13 @@
 
     aside {
         border: 2px solid grey;
-        width: 340px;
+        width: 300px;
         height: 710px;
     }
 
     .snaplogo {
         position: absolute;
-        left: 160px;
+        left: 130px;
         top: 15px;
     }
 
@@ -3601,31 +3601,31 @@
         position: absolute;
         height: 40px;
         width: 40px;
-        left: 300px;
+        left: 240px;
         top: 14px;
     }
 
     hr {
         position: absolute;
         top: 70px;
-        width: 350px;
+        width: 300px;
     }
     .hr1{
         position: absolute;
         top: 140px;
-        width: 350px;
+        width: 300px;
     }
     .color{
         background-color: white;
         position: absolute;
         height: 140px;
-        width: 350px;
+        width: 300px;
         z-index: 2;
     }
 
     #search {
         position: absolute;
-        width: 290px;
+        width: 240px;
         height: 30px;
         top: 90px;
         left: 25px;
@@ -3635,7 +3635,7 @@
     .scroll{
         margin-top: 7px;
         height: 705px;
-        width: 340px;
+        width: 300px;
         overflow-y: scroll;
     }
 
@@ -3674,7 +3674,7 @@
         width: 10px;
         background-color: rgb(0, 140, 215);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 260px;
         margin-top: -23px;
     }
     .bitmoji2 {
@@ -3708,7 +3708,7 @@
         width: 10px;
         background-color: rgb(162, 0, 227);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 260px;
         margin-top: -23px;
     }
     .bitmoji3 {
@@ -3742,7 +3742,7 @@
         width: 10px;
         background-color: rgb(162, 0, 227);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 260px;
         margin-top: -23px;
     }
     .bitmoji4 {
@@ -3780,7 +3780,7 @@
         width: 10px;
         background-color: rgb(0, 140, 215);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 260px;
         margin-top: -23px;
     }
     .bitmoji5 {
@@ -3923,7 +3923,7 @@
         width: 10px;
         background-color: rgb(0, 140, 215);
         border-radius: 3px 3px 3px 3px;
-        margin-left: 300px;
+        margin-left: 260px;
         margin-top: -23px;
     }
     .bit1:hover, .bit2:hover, .bit3:hover, .bit4:hover, .bit5:hover, .bit6:hover, .bit7:hover, .bit8:hover, .bit9:hover{
@@ -4043,6 +4043,5 @@
         display: none;
     }
 }
-
 
 
