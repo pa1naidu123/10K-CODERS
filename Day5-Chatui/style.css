@@ -376,7 +376,8 @@
         justify-content: space-evenly;
         align-items: center;
         width: 25vw;
-        height: 50px;
+        margin-top: 20px;
+        height: 30px;
 
 
     }
@@ -842,7 +843,8 @@
           justify-content: space-evenly;
           align-items: center;
           width: 25vw;
-          height: 50px;
+          margin-top: 20px;
+          height: 30px;
   
   
       }
@@ -1308,7 +1310,8 @@
           justify-content: space-evenly;
           align-items: center;
           width: 25vw;
-          height: 50px;
+          margin-top: 20px;
+          height: 30px;
   
   
       }
@@ -1772,7 +1775,8 @@
           justify-content: space-evenly;
           align-items: center;
           width: 25vw;
-          height: 50px;
+          margin-top: 20px;
+          height: 30px;
   
   
       }
@@ -2180,7 +2184,8 @@
           justify-content: space-evenly;
           align-items: center;
           width: 30vw;
-          height: 50px;
+          margin-top: 20px;
+          height: 30px;
   
   
       }
@@ -2590,7 +2595,8 @@
           justify-content: space-evenly;
           align-items: center;
           width: 40vw;
-          height: 50px;
+          margin-top: 20px;
+          height: 30px;
   
   
       }
