@@ -368,17 +368,24 @@
     .icon1{
       height: 6vh;
       width: 6vw;
-      margin-top: 20px;
       color: gray;
+    }
+    .cen{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 25vw;
+        height: 50px;
+
+
     }
     .bitmoji-elena{
         border-radius: 50px;
-        margin-left: 10px;
     }
-    .h3{
+    /* .h3{
         margin-left: 160px;
-        margin-top: -40px;
-    }
+    } */
     .love-ca{
         color: red;
     }
@@ -431,6 +438,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         column-gap: 10px;
         background-color: lightgray;
         height: 80px;
@@ -824,19 +832,26 @@
         flex-direction: row;
     }
     .icon1{
-      height: 6vh;
-      width: 6vw;
-      margin-top: 20px;
-      color: gray;
-    }
-    .bitmoji-elena{
-        border-radius: 50px;
-        margin-left: 10px;
-    }
-    .h3{
-        margin-left: 160px;
-        margin-top: -40px;
-    }
+        height: 6vh;
+        width: 6vw;
+        color: gray;
+      }
+      .cen{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+          width: 25vw;
+          height: 50px;
+  
+  
+      }
+      .bitmoji-elena{
+          border-radius: 50px;
+      }
+      /* .h3{
+          margin-left: 160px;
+      } */
     .love-ca{
         color: red;
     }
@@ -889,6 +904,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         column-gap: 10px;
         background-color: lightgray;
         height: 80px;
@@ -937,7 +953,7 @@
 
     .snaplogo {
         position: absolute;
-        left: 150px;
+        left: 15.5vw;
         top: 15px;
     }
 
@@ -945,7 +961,7 @@
         position: absolute;
         height: 40px;
         width: 40px;
-        left: 300px;
+        left: 32vw;
         top: 14px;
     }
 
@@ -1282,19 +1298,26 @@
         flex-direction: row;
     }
     .icon1{
-      height: 6vh;
-      width: 6vw;
-      margin-top: 20px;
-      color: gray;
-    }
-    .bitmoji-elena{
-        border-radius: 50px;
-        margin-left: 10px;
-    }
-    .h3{
-        margin-left: 140px;
-        margin-top: -40px;
-    }
+        height: 6vh;
+        width: 6vw;
+        color: gray;
+      }
+      .cen{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+          width: 25vw;
+          height: 50px;
+  
+  
+      }
+      .bitmoji-elena{
+          border-radius: 50px;
+      }
+      /* .h3{
+          margin-left: 160px;
+      } */
     .love-ca{
         color: red;
     }
@@ -1345,6 +1368,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         column-gap: 10px;
         background-color: lightgray;
         height: 80px;
@@ -1738,19 +1762,26 @@
         flex-direction: row;
     }
     .icon1{
-      height: 6vh;
-      width: 6vw;
-      margin-top: 20px;
-      color: gray;
-    }
-    .bitmoji-elena{
-        border-radius: 50px;
-        margin-left: 10px;
-    }
-    .h3{
-        margin-left: 140px;
-        margin-top: -40px;
-    }
+        height: 6vh;
+        width: 6vw;
+        color: gray;
+      }
+      .cen{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+          width: 25vw;
+          height: 50px;
+  
+  
+      }
+      .bitmoji-elena{
+          border-radius: 50px;
+      }
+      /* .h3{
+          margin-left: 160px;
+      } */
     .love-ca{
         color: red;
     }
@@ -1801,6 +1832,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         column-gap: 10px;
         background-color: lightgray;
         height: 80px;
@@ -2140,18 +2172,24 @@
     .icon1{
         height: 6vh;
         width: 6vw;
-        margin-top: 20px;
         color: gray;
-        margin-left: 30px;
+      }
+      .cen{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+          width: 30vw;
+          height: 50px;
+  
+  
       }
       .bitmoji-elena{
           border-radius: 50px;
-          margin-left: 10px;
       }
-      .h3{
+      /* .h3{
           margin-left: 160px;
-          margin-top: -40px;
-      }
+      } */
       .love-ca{
           color: red;
       }
@@ -2204,6 +2242,7 @@
           display: flex;
           flex-direction: row;
           justify-content: center;
+          align-items: center;
           column-gap: 10px;
           background-color: lightgray;
           height: 80px;
@@ -2543,18 +2582,24 @@
     .icon1{
         height: 6vh;
         width: 6vw;
-        margin-top: 20px;
         color: gray;
-        margin-left: 30px;
+      }
+      .cen{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+          width: 40vw;
+          height: 50px;
+  
+  
       }
       .bitmoji-elena{
           border-radius: 50px;
-          margin-left: 10px;
       }
-      .h3{
+      /* .h3{
           margin-left: 160px;
-          margin-top: -40px;
-      }
+      } */
       .love-ca{
           color: red;
       }
@@ -2607,6 +2652,7 @@
           display: flex;
           flex-direction: row;
           justify-content: center;
+          align-items: center;
           column-gap: 10px;
           background-color: lightgray;
           height: 80px;
@@ -2653,7 +2699,7 @@
 
     .snaplogo {
         position: absolute;
-        left: 44vw;
+        left: 41vw;
         top: 15px;
     }
 
@@ -2661,7 +2707,7 @@
         position: absolute;
         height: 40px;
         width: 40px;
-        left: 80vw;
+        left: 75vw;
         top: 14px;
     }
 
@@ -2994,23 +3040,24 @@
         display: flex;
         flex-direction: row;
     } */
-    .icon1{
-      /* height: 6vh;
-      width: 6vw;
-      margin-top: 20px;
-      color: gray; */
-      display: none;
+    .cen{
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 30vw;
+        height: 50px; */
+        display: none;
+
+
     }
     .bitmoji-elena{
-        /* border-radius: 50px;
-        margin-left: 10px; */
+        /* border-radius: 50px; */
         display: none;
     }
-    .h3{
-        /* margin-left: 160px;
-        margin-top: -40px; */
-        display: none;
-    }
+    /* .h3{
+        margin-left: 160px;
+    } */
     .love-ca{
         /* color: red; */
         display: none;
@@ -3120,7 +3167,7 @@
 
     .snaplogo {
         position: absolute;
-        left: 41vw;
+        left: 40vw;
         top: 15px;
     }
 
@@ -3128,7 +3175,7 @@
         position: absolute;
         height: 40px;
         width: 40px;
-        left: 78vw;
+        left: 75vw;
         top: 14px;
     }
 
@@ -4037,6 +4084,3 @@
         display: none;
     }
 }
-
-
-
