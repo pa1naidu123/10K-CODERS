@@ -2290,7 +2290,7 @@
     aside {
         border: 2px solid grey;
         width: 150px;
-        height: 650px;
+        height: 99.5vh;
     }
 
     .snaplogo {
@@ -2334,7 +2334,7 @@
     }
     .scroll{
         margin-top: 7px;
-        height: 648px;
+        height: 99.5vh;
         width: 150px;
         overflow-y: scroll;
     }
@@ -2624,7 +2624,7 @@
       }
       .chat{
           width: 74.5vw;
-          height: 495px;
+          height: 79vh;
           border: 2px solid gray;
           margin-top: 20px;
           margin-left: 20px;
@@ -2700,7 +2700,7 @@
     aside {
         border: 2px solid grey;
         width: 100vw;
-        height: 650px;
+        height: 99.5vh;
     }
 
     .snaplogo {
@@ -2746,7 +2746,7 @@
     }
     .scroll{
         margin-top: 7px;
-        height: 648px;
+        height: 99.5vh;
         width: 99vw;
         overflow-y: scroll;
     }
@@ -3168,7 +3168,7 @@
     aside {
         border: 2px solid grey;
         width: 100vw;
-        height: 650px;
+        height: 99.5vh;
     }
 
     .snaplogo {
@@ -3214,7 +3214,7 @@
     }
     .scroll{
         margin-top: 7px;
-        height: 648px;
+        height: 99.5vh;
         width: 100vw;
         overflow-y: scroll;
     }
@@ -3635,7 +3635,7 @@
     aside {
         border: 2px solid grey;
         width: 300px;
-        height: 710px;
+        height: 99.5vh;
     }
 
     .snaplogo {
@@ -3681,7 +3681,7 @@
     }
     .scroll{
         margin-top: 7px;
-        height: 705px;
+        height: 99.5vh;
         width: 300px;
         overflow-y: scroll;
     }
