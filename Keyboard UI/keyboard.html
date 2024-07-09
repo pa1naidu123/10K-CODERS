@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEYBOARD</title>
+    <style>
+        .main{
+            display: flex;
+            flex-direction: row;
+        }
+        .keyboard{
+            height: 360px;
+            width: 62%;
+            border: 2px solid black;
+            background-color: lightgrey;
+            border-radius: 10px;
+            margin-left: 4vw;
+        }
+        header{
+            text-align: center;
+        }
+        .first , .second , .third , .fourth , .fifth , .sixth , .one , .two , .three , .four , .five , .six{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        }
+        .f{
+            height: 48px;
+            width: 5%;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 5px black;
+        }
+        .f1{
+            height: 25px;
+            width: 5%;
+            border: 2px solid black;
+            border-radius: 7px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 5px black;
+        }
+        [class~="b1"]{
+            width: 6%;
+        }
+        [class~="b14"]{
+            width: 6.5%;
+        }
+        [class~="b15"]{
+             width: 6.5%;
+        }
+        [class~="bb14"]{
+            width: 10%;
+        }
+        [class~="ba1"]{
+            width: 7%;
+        }
+        [class~="ba14"]{
+            width: 6%;
+        }
+        [class~="bb1"]{
+            width: 4%;
+        }
+    [class~="bd1"]{
+        width: 8%;
+    }
+    [class~="bd13"]{
+        width: 12%;
+    }
+    [class~="bc1"]{
+        width: 12%;
+    }
+    [class~="bc12"]{
+        width: 14%;
+    }
+    [class~="ff5"]{
+        width: 37%;
+    }
+    [class~="ff9"]{
+        width: 100%;
+        height: 20px;
+        border-radius: 7px;
+    }
+    [class~="ff10"]{
+        width: 100%;
+        height: 20px;
+        border-radius: 7px;
+    }
+    .seperate{
+        rotate: 180deg;
+        width: 5%;
+    }
+    .num{
+       height: 360px;
+       width: 19%;
+       border: 2px solid black;
+       background-color: lightgrey;
+       border-radius: 10px;
+    }
+    .f2{
+        width: 20%;
+        height: 25px;
+        border: 2px solid black;
+        border-radius: 7px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 5px black;
+    }
+    .f3{
+            height: 48px;
+            width: 20%;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 5px black;
+        }
+        [class~="a4"]{
+            height: 25px;
+        }
+        .three , .four , .five , .six{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            gap: 9px;
+            margin-left: 9px;
+        }
+        [class~="aa4"]{
+            display: none;
+        }
+        [class~="ab4"]{
+            position: absolute;
+            height: 108px;
+            width: 3.4%;
+            left: 80.6%;
+            top: 43.5%;
+        }
+        [class~="a4"]{
+            position: absolute;
+            height: 108px;
+            width: 3.4%;
+            left: 80.6%;
+            top: 26.5%;
+        }
+        [class~="ab1"]{
+            width: 45.5%;
+        }
+        .pp{
+            margin-top: -7px;
+            opacity: 0.6;
+            margin-left: -7px;
+            padding-right: 5px;
+        }
+        sup{
+            margin-top: -20px; 
+            opacity: 0.6;
+            margin-left: -10px;
+            padding-right: 8px;
+        }
+        .pause{
+            font-size: 10px;
+            margin-top: -20px; 
+            opacity: 0.6;
+            margin-left: -10px;
+            padding-right: 8px; 
+        }
+        .for{
+            margin-left: -20px;
+            margin-top: 20px;
+        }
+        .bac{
+            margin-left: 7px;
+            margin-top: -7px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><b>KEYBOARD</b></h1>
+    </header>
+    <div class="main">
+      <div class="keyboard">
+        <div class="first">
+            <div class="f1 b1">Esc</div>
+            <div class="f1 b2" ><sup class="pp" >?</sup>F1 </div>
+            <div class="f1 b3"><sup class="pp"><ion-icon name="sunny-outline"></ion-icon></sup> F2 </div>
+            <div class="f1 b4"><sup class="pp"><ion-icon name="sunny-outline"></ion-icon></sup>F3</div>
+            <div class="f1 b5">F4</div>
+            <div class="f1 b6">F5</div>
+            <div class="f1 b7"><sup class="pp"><ion-icon name="volume-mute-outline"></ion-icon></sup>F6</div>
+            <div class="f1 b8"><sup class="pp"><ion-icon name="volume-low-outline"></ion-icon></sup>F7</div>
+            <div class="f1 b9"><sup class="pp"><ion-icon name="volume-high-outline"></ion-icon></sup>F8</div>
+            <div class="f1 b10"><sup class="pp"><ion-icon name="play-forward-outline"></ion-icon></sup>F9</div>
+            <div class="f1 b11"><sup class="pp"><ion-icon name="play-skip-forward-outline"></ion-icon></sup>F10</div>
+            <div class="f1 b12"><sup class="pp"><ion-icon name="play-back-outline"></ion-icon></sup>F11</div>
+            <div class="f1 b13"><sup class="pp"><ion-icon name="airplane-outline"></ion-icon></sup>F12</div>
+            <div class="f1 b14">PRT SC</div>
+            <div class="f1 b15">DELETE</div>
+        </div>
+        <div class="second">
+            <div class="f bb1"> <sup>~</sup> `</div>
+            <div class="f bb2"><sup>!</sup>1</div>
+            <div class="f bb3"><sup>@</sup>2</div>
+            <div class="f bb4"><sup>#</sup>3</div>
+            <div class="f bb5"><sup>$</sup>4</div>
+            <div class="f bb6"><sup>%</sup>5</div>
+            <div class="f bb7"><sup>^</sup>6</div>
+            <div class="f bb8"><sup>&</sup>7</div>
+            <div class="f bb9"><sup>*</sup>8</div>
+            <div class="f bb10"><sup>(</sup>9</div>
+            <div class="f bb11"><sup>)</sup>0</div>
+            <div class="f bb12"><sup>_</sup>-</div>
+            <div class="f bb13"><sup>+</sup>=</div>
+            <div class="f bb14">Backspace</div>
+        </div>
+        <div class="third">
+        <div class="f ba1">TAB <sup class="bac"><ion-icon name="chevron-back-outline"></ion-icon></sup>  <sub class="for"><ion-icon name="chevron-forward-outline"></ion-icon></sub> </div>
+        <div class="f ba2">Q</div>
+        <div class="f ba3">W</div>
+        <div class="f ba4">E</div>
+        <div class="f ba5">R</div>
+        <div class="f ba6">T</div>
+        <div class="f ba7">Y</div>
+        <div class="f ba8">U</div>
+        <div class="f ba9">I</div>
+        <div class="f ba10">O</div>
+        <div class="f ba11">P</div>
+        <div class="f ba12"> <sup>{</sup> [</div>
+        <div class="f ba13"> <sup>}</sup> ]</div>
+        <div class="f ba14"> <sup>|</sup> \</div>
+        </div>
+        <div class="fourth">
+            <div class="f bd1">CAPS LOCK</div>
+            <div class="f bd2">A</div>
+            <div class="f bd3">S</div>
+            <div class="f bd4">D</div>
+            <div class="f bd5">F</div>
+            <div class="f bd6">G</div>
+            <div class="f bd7">H</div>
+            <div class="f bd8">J</div>
+            <div class="f bd9">K</div>
+            <div class="f bd10">L</div>
+            <div class="f bd11"><sup>:</sup>;</div>
+            <div class="f bd12"><sup>"</sup>'</div>
+            <div class="f bd13"><ion-icon name="chevron-back-outline"></ion-icon>ENTER</div>
+        </div>
+        <div class="fifth">
+            <div class="f bc1"><ion-icon name="chevron-up-outline"></ion-icon>SHIFT</div>
+            <div class="f bc2">Z</div>
+            <div class="f bc3">X</div>
+            <div class="f bc4">C</div>
+            <div class="f bc5">V</div>
+            <div class="f bc6">B</div>
+            <div class="f bc7">N</div>
+            <div class="f bc8">M</div>
+            <div class="f bc9"> <sup><</sup> ,</div>
+            <div class="f bc10"><sup>></sup>.</div>
+            <div class="f bc11"><sup>?</sup>/</div>
+            <div class="f bc12"><sup class="pause">PAUSE</sup><ion-icon name="chevron-up-outline"></ion-icon>SHIFT</div>
+        </div>
+        <div class="sixth">
+            <div class="f ff1">CTRL</div>
+            <div class="f ff2">FN</div>
+            <div class="f ff3"><ion-icon name="logo-windows"></ion-icon></div>
+            <div class="f ff4">ALT</div>
+            <div class="f ff5">SPACE</div>
+            <div class="f ff6">ALT</div>
+            <div class="f ff7">CTRL</div>
+            <div class="f ff8"><ion-icon name="caret-back-circle-outline"></ion-icon></div>
+        <div class="seperate">
+            <div class="f ff9"><ion-icon name="caret-up-circle-outline"></ion-icon></div>
+            <div class="f ff10"><ion-icon name="caret-down-circle-outline"></ion-icon></div>
+        </div>
+            <div class="f ff11"><ion-icon name="caret-forward-circle-outline"></ion-icon></div>
+        </div>
+       </div>
+       <div class="num">
+            <div class="one">
+            <div class="f2 b16">HOME</div>
+            <div class="f2 b17">END</div>
+            <div class="f2 b18">PG UP</div>
+            <div class="f2 b19">PG ON</div>
+            </div>
+            <div class="two">
+            <div class="f3 bb15">NUM LOCK</div>
+            <div class="f3 bb16">/</div>
+            <div class="f3 bb17">*</div>
+            <div class="f3 bb18">-</div>
+            </div>
+            <div class="three">
+                <div class="f3 a1">7</div>
+                <div class="f3 a2">8</div>
+                <div class="f3 a3">9</div>
+                <div class="f3 a4">+</div>
+            </div>
+            <div class="four">
+                <div class="f3 aa1">4</div>
+                <div class="f3 aa2">5</div>
+                <div class="f3 aa3">6</div>
+                <!-- <div class="f3 aa4"></div> -->
+            </div>
+            <div class="five">
+                <div class="f3 ac1">1</div>
+                <div class="f3 ac2">2</div>
+                <div class="f3 ac3">3</div>
+                <!-- <div class="f3 ac4"></div> -->
+            </div>
+            <div class="six">
+                <div class="f3 ab1">0</div>
+                <!-- <div class="f3 ab2"></div> -->
+                <div class="f3 ab3">DEL</div>
+                <div class="f3 ab4">E <br> N <br>T <br>E <br>R</div>
+            </div>
+       </div>
+    </div>
+       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+       <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
