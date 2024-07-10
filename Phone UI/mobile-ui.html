@@ -8,51 +8,58 @@
         *{
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
+        .body{
+            display: flex;
+            flex-direction: row;
+        }
         .main{
-            height: 100vh;
-            width: 23.5vw;
+            height: 740px;
+            width: 360px;
             border-radius: 30px 30px 30px 30px;
             background-color: grey;
             display: flex;
+            justify-content: center;
+            z-index: 2;
+            /* margin-left: 10%; */
             margin-left: auto;
             margin-right: auto;
-            z-index: 2;
         }
         .main2{
             display: flex;
             flex-direction: column;
-            margin-left: auto;
-            margin-right: auto;
+            /* margin-left: auto;
+            margin-right: auto; */
             margin-top: auto;
             margin-bottom: auto;
-            height: 96vh;
-            width: 21.5vw;
+            height: 710px;
+            width: 330px;
             border-radius: 20px 20px 20px 20px;
             background-color: black;
         }
         .vol1{
-            height: 10vh;
-            width: 1vw;
+            height: 50px;
+            width: 10px;
             background-color: black;
             border-radius: 20px;
-            margin-left: 36.7vw;
-            margin-top: -65vh;
+            margin-left: -23px;
+            margin-top: -600px;
         }
         .vol2{
-            height: 10vh;
-            width: 1vw;
+            height: 50px;
+            width: 10px;
             background-color: black;
             border-radius: 20px;
-            margin-left: 36.7vw;
-            margin-top: -24vh;
+            margin-left: -23px;
+            margin-top: 15px;
         }
         .power{
-            height: 13vh;
-            width: 1vw;
+            height: 80px;
+            width: 10px;
             background-color: black;
             border-radius: 20px;
-            margin-left: 60.2vw;
-            margin-top: -5vh;
+            position: relative;
+            margin-left: 340px;
+            margin-top: -50px;
         }
         .time{
             display: flex;
@@ -64,16 +71,16 @@
             margin-left: 2%;
         }
         .camera{
-            height: 10px;
-            width: 0.7vw;
+            height: 15px;
+            width: 15px;
             border-radius: 50%;
             color: white;
             background-color: white;
             margin-left: -17%;
         }
         .battery{
-            height: 1.8vh;
-            width: 2.2vw;
+            height: 15px;
+            width: 30px;
             border: 2px solid white;
             border-radius: 5px;
             font-size: 13px;
@@ -85,8 +92,8 @@
             font-size: 14px;
         }
         .cam{
-            height: 1vh ;
-            width: 5vw ;
+            height: 10px ;
+            width: 80px ;
             background-color: white;
             border-radius: 10px;
             margin-left: -17.5%;
@@ -138,8 +145,8 @@
             width: 70%;
         }
         .keyboard{
-            width: 100%;
-            height: 38vh;
+            width: 99%;
+            height: 287px;
             border: 2px solid white;
             border-radius: 0 0 20px 20px;
             background-image: url(./billie2.jpg);
@@ -147,12 +154,16 @@
             
         }
         .data1{
-            height: 7vh;
+            height: 60px;
             width: 100%;
             /* border: 1px solid white; */
             display: flex;
             flex-direction: row;
             align-items: center;
+        }
+        .typing{
+            height: 217px;
+            width: 100%;
         }
         .a1{
             color: white;
@@ -160,7 +171,7 @@
             text-align: center;
         }
         .one{
-            height: 5vh;
+            height: 40px;
             width: 100%;
             display: flex;
             flex-direction: row;
@@ -181,7 +192,7 @@
         }
         .two , .three , .four{
             margin-top: 13px;
-            height: 5vh;
+            height: 40px;
             width: 100%;
             display: flex;
             flex-direction: row;
@@ -218,17 +229,16 @@
            width: 50%;
         }
         .bar{
-            height: 0.7vh;
-            width: 5vw;
+            height: 5px;
+            width: 80px;
             background-color: white;
-            margin-top: 27px;
+            margin-top: 10px;
             margin-left: 120px;
             border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    
     <div class="main">
         <div class="main2">
             <div class="time">
@@ -333,12 +343,15 @@
                    </div>
                    <div class="bar"></div>
                 </div>
+                <div class="vol1"></div>
+                <div class="vol2"></div>
+                <div class="power"></div>
             </div>
         </div>
     </div>
-    <div class="vol1"></div>
+    <!-- <div class="vol1"></div>
     <div class="vol2"></div>
-    <div class="power"></div>
+    <div class="power"></div> -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
