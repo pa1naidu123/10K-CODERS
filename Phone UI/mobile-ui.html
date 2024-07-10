@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .main{
+            height: 100vh;
+            width: 23.5vw;
+            border-radius: 30px 30px 30px 30px;
+            background-color: grey;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: 2;
+        }
+        .main2{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            height: 96vh;
+            width: 21.5vw;
+            border-radius: 20px 20px 20px 20px;
+            background-color: black;
+        }
+        .vol1{
+            height: 10vh;
+            width: 1vw;
+            background-color: black;
+            border-radius: 20px;
+            margin-left: 36.7vw;
+            margin-top: -65vh;
+        }
+        .vol2{
+            height: 10vh;
+            width: 1vw;
+            background-color: black;
+            border-radius: 20px;
+            margin-left: 36.7vw;
+            margin-top: -24vh;
+        }
+        .power{
+            height: 13vh;
+            width: 1vw;
+            background-color: black;
+            border-radius: 20px;
+            margin-left: 60.2vw;
+            margin-top: -5vh;
+        }
+        .time{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 30px;
+            width: 95%;
+            margin-left: 2%;
+        }
+        .camera{
+            height: 10px;
+            width: 0.7vw;
+            border-radius: 50%;
+            color: white;
+            background-color: white;
+            margin-left: -17%;
+        }
+        .battery{
+            height: 1.8vh;
+            width: 2.2vw;
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 13px;
+            color: white;
+            text-align: center;
+        }
+        .time1{
+            color: white;
+            font-size: 14px;
+        }
+        .cam{
+            height: 1vh ;
+            width: 5vw ;
+            background-color: white;
+            border-radius: 10px;
+            margin-left: -17.5%;
+        }
+        .row1{
+             height: 30px;
+             display: flex;
+             flex-direction: row;
+             align-items: center;
+             justify-content: space-evenly;
+             color: white;
+        }
+        .back{
+            width: 6%;
+            height: 100%;
+
+        }
+        .search{
+            width: 80%;
+            height: 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+        }
+        .xx{
+            width: 6%;
+            height: 100%;
+        }
+        .row2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            height: 45px;
+            color: white;
+        }
+        .icon1{
+            height: 100%;
+            width: 6%;
+            color: white;
+        }
+        .icon2{
+            rotate: -30deg;
+            height: 100%;
+            width: 6%;
+        }
+        .result1{
+            width: 70%;
+        }
+        .keyboard{
+            width: 100%;
+            height: 38vh;
+            border: 2px solid white;
+            border-radius: 0 0 20px 20px;
+            background-image: url(./billie2.jpg);
+            background-size: cover;
+            
+        }
+        .data1{
+            height: 7vh;
+            width: 100%;
+            /* border: 1px solid white; */
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .a1{
+            color: white;
+            width: 33.333%;
+            text-align: center;
+        }
+        .one{
+            height: 5vh;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 1%;
+        }
+        .f{
+           width: 9%;
+           height: 100%;
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+           align-items: center;
+           border: 1px solid white;
+           border-radius: 5px;
+           color: white;
+        }
+        .two , .three , .four{
+            margin-top: 13px;
+            height: 5vh;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 1%;
+        }
+        .f1{
+           width: 10%;
+           height: 100%;
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+           align-items: center;
+           border: 1px solid white;
+           border-radius: 5px;
+           color: white;
+        }
+        [class~="caps"], [class~="clear"]{
+            width: 15%;
+        }
+        .f2{
+           width: 10%;
+           height: 100%;
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+           align-items: center;
+           border: 1px solid white;
+           border-radius: 5px;
+           color: white;
+        }
+        [class~="eng"]{
+           width: 50%;
+        }
+        .bar{
+            height: 0.7vh;
+            width: 5vw;
+            background-color: white;
+            margin-top: 27px;
+            margin-left: 120px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="main2">
+            <div class="time">
+                <p class="time1">11.16 AM</p>
+                <div class="camera"></div>
+                <div class="cam"></div>
+                <div class="battery">63</div>
+            </div>
+            <div class="row1">
+                <ion-icon class="back" name="arrow-back-outline"></ion-icon>
+                <input class="search" type="text" height="10px" width="50vh" placeholder="Search" value="  justin bieber boyfriend ">
+                <ion-icon class="xx" name="close-outline"></ion-icon>
+            </div>
+            <div class="row2">
+                <ion-icon class="icon1" name="search-outline"></ion-icon>
+                <p class="result1">justin bieber boyfriend lyrics</p>
+                <ion-icon class="icon2" name="arrow-up-outline"></ion-icon>
+            </div>
+            <div class="row2">
+                <ion-icon class="icon1" name="search-outline"></ion-icon>
+                <p class="result1">justin bieber boyfriend live</p>
+                <ion-icon class="icon2" name="arrow-up-outline"></ion-icon>
+            </div>
+            <div class="row2">
+                <ion-icon class="icon1" name="search-outline"></ion-icon>
+                <p class="result1">justin bieber boyfriend intro</p>
+                <ion-icon class="icon2" name="arrow-up-outline"></ion-icon>
+            </div>
+            <div class="row2">
+                <ion-icon class="icon1" name="search-outline"></ion-icon>
+                <p class="result1">justin bieber boyfriend song</p>
+                <ion-icon class="icon2" name="arrow-up-outline"></ion-icon>
+            </div>
+            <div class="row2">
+                <ion-icon class="icon1" name="search-outline"></ion-icon>
+                <p class="result1">justin bieber boyfriend ringtone</p>
+                <ion-icon class="icon2" name="arrow-up-outline"></ion-icon>
+            </div>
+            <div class="row2">
+                <ion-icon class="icon1" name="search-outline"></ion-icon>
+                <p class="result1">justin bieber boyfriend status</p>
+                <ion-icon class="icon2" name="arrow-up-outline"></ion-icon>
+            </div>
+            <div class="row2">
+                <ion-icon class="icon1" name="search-outline"></ion-icon>
+                <p class="result1">justin bieber boyfriend reaction</p>
+                <ion-icon class="icon2" name="arrow-up-outline"></ion-icon>
+            </div>
+            <div class="row2">
+                <ion-icon class="icon1" name="search-outline"></ion-icon>
+                <p class="result1">justin bieber boyfriend acoustic</p>
+                <ion-icon class="icon2" name="arrow-up-outline"></ion-icon>
+            </div>
+            <div class="keyboard">
+                <div class="data1">
+                    <div class="a1">selena</div>
+                    <div class="a1">and</div>
+                    <div class="a1">hailey</div>
+                </div>
+                <div class="typing">
+                   <div class="one">
+                    <div class="f">q</div>
+                    <div class="f">w</div>
+                    <div class="f">e</div>
+                    <div class="f">r</div>
+                    <div class="f">t</div>
+                    <div class="f">y</div>
+                    <div class="f">u</div>
+                    <div class="f">i</div>
+                    <div class="f">o</div>
+                    <div class="f">p</div>
+                   </div>
+                   <div class="two">
+                    <div class="f">a</div>
+                    <div class="f">s</div>
+                    <div class="f">d</div>
+                    <div class="f">f</div>
+                    <div class="f">g</div>
+                    <div class="f">h</div>
+                    <div class="f">j</div>
+                    <div class="f">k</div>
+                    <div class="f">l</div>
+                   </div>
+                   <div class="three">
+                    <div class="f1 caps"><ion-icon name="arrow-up-outline"></ion-icon></div>
+                    <div class="f1">z</div>
+                    <div class="f1">x</div>
+                    <div class="f1">c</div>
+                    <div class="f1">v</div>
+                    <div class="f1">b</div>
+                    <div class="f1">n</div>
+                    <div class="f1">m</div>
+                    <div class="f1 clear"><ion-icon name="backspace-outline"></ion-icon></div>
+                   </div>
+                   <div class="four">
+                    <div class="f2">?123</div>
+                    <div class="f2"><ion-icon name="happy-outline"></ion-icon></div>
+                    <div class="f2">,</div>
+                    <div class="f2 eng">ENGLISH</div>
+                    <div class="f2">.</div>
+                    <div class="f2"><ion-icon name="return-down-back-outline"></ion-icon></div>
+                   </div>
+                   <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="vol1"></div>
+    <div class="vol2"></div>
+    <div class="power"></div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
